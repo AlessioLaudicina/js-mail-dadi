@@ -5,13 +5,13 @@
 
 let numeroUtente = Math.floor(Math.random() * 6) +1;
 console.log(numeroUtente)
-document.getElementById("computer-number").innerHTML = numeroUtente;
+document.getElementById("utente-number").innerHTML = numeroUtente;
 
 
 
 let numeroComputer = Math.floor(Math.random() * 6) +1;
 console.log(numeroComputer)
-document.getElementById("utente-number").innerHTML = numeroUtente;
+document.getElementById("computer-number").innerHTML = numeroComputer;
 
 
 
