@@ -5,7 +5,7 @@ stampa un messaggio appropriato sull’esito del controllo. */
 const email = ['alessio.laudicina@gmail.com', 'roberto.laudicina@gmail.com', 'aldo.laudicina@gmail.com'];
 console.log(email)
 
-const emailUtente = prompt("Inserisci la tua email")
+let emailUtente = prompt("Inserisci la tua email")
 console.log(emailUtente)
 
 
